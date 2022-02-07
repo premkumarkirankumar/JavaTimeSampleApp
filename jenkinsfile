@@ -19,7 +19,7 @@ pipeline {
                }
            }		
         }
-        stage('unit-test') {
+        stage('UnitTests') {
 	   steps {
                 echo 'unittest..'
 	        sh script: '/opt/apache-maven-3.8.4/bin/mvn test'

@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('compile') {
+        stage('Compile') {
 	   steps {
                 echo 'compiling..'
 		git url: 'https://github.com/premkumarkirankumar/JavaTimeSampleApp'
